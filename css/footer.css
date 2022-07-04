@@ -83,7 +83,7 @@ hr {
 }
 
 .hashtag::before {
-  content: '#';
+  content: "#";
   color: var(--color-main);
 }
 
@@ -111,12 +111,6 @@ hr {
   justify-content: center;
   gap: 30px;
   padding: 40px 0;
-}
-
-@media screen and (max-width: 768px) {
-  /* .lang-selector {
-    width: 176px;
-  } */
 }
 
 @media screen and (max-width: 576px) {
